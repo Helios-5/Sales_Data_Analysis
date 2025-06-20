@@ -13,3 +13,5 @@ plt.grid(True)
 plt.tight_layout()
 plt.savefig("monthly_revenue_trend.png")
 plt.close()
+
+# SALES DATA ANALYSIS
