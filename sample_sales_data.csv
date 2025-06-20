@@ -1,0 +1,12 @@
+Order_ID,Order_Date,Customer_ID,Region,Product_ID,Category,Units_Sold,Unit_Price,Revenue,Discount,Profit
+1001,2023-01-15,C001,North,P100,Electronics,5,200,1000,50,950
+1002,2023-01-20,C002,East,P200,Furniture,2,500,1000,0,1000
+1003,2023-02-10,C003,West,P300,Clothing,10,50,500,25,475
+1004,2023-03-05,C001,North,P100,Electronics,3,200,600,30,570
+1005,2023-04-22,C004,South,P400,Kitchen,4,150,600,0,600
+
+
+
+
+
+
