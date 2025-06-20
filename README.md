@@ -26,14 +26,15 @@ This project analyzes historical sales data to uncover insights into product per
 
 ## 📁 Project Structure
 
+```
 sales-data-analysis/
-│
-├── sample_sales_data.csv # Sample sales dataset
-├── analysis_script.py # Python code for trend analysis
-├── sql_queries.sql # Useful SQL queries for reporting
-├── monthly_revenue_trend.png # Output chart (line graph)
-└── README.md # Project documentation
-
+ │
+ ├── sample_sales_data.csv # Sample sales dataset
+ ├── analysis_script.py # Python code for trend analysis
+ ├── sql_queries.sql # Useful SQL queries for reporting
+ ├── monthly_revenue_trend.png # Output chart (line graph)
+ └── README.md # Project documentation
+```
 
 ---
 
