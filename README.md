@@ -26,14 +26,15 @@ This project analyzes historical sales data to uncover insights into product per
 
 ## 📁 Project Structure
 
+```Bash
 sales-data-analysis/
-│
-├── sample_sales_data.csv # Sample sales dataset
-├── analysis_script.py # Python code for trend analysis
-├── sql_queries.sql # Useful SQL queries for reporting
-├── monthly_revenue_trend.png # Output chart (line graph)
-└── README.md # Project documentation
-
+  │
+  ├── sample_sales_data.csv # Sample sales dataset
+  ├── analysis_script.py # Python code for trend analysis
+  ├── sql_queries.sql # Useful SQL queries for reporting
+  ├── monthly_revenue_trend.png # Output chart (line graph)
+  └── README.md # Project documentation
+```
 
 ---
 
@@ -60,6 +61,34 @@ FROM sales_data
 GROUP BY Category
 ORDER BY Category_Revenue DESC;
 ```
+
+---
+
+## 📦Tech Stack
+
+# 🧰 Tech Stack Overview
+
+This project utilizes a combination of backend, analytics, and visualization tools to deliver insightful sales data analysis.
+
+---
+
+## 🔢 Languages & Libraries
+
+| Tool/Library     | Purpose                                  |
+|------------------|-------------------------------------------|
+| **Python**       | Core language for data analysis and scripting |
+| **Pandas**       | Data manipulation and transformation      |
+| **Matplotlib**   | Basic static visualizations (line plots, bar charts) |
+| **NumPy**        | Numerical computations (optional, not used yet) |
+
+---
+
+## 🗃️ Data Storage & Querying
+
+| Tool   | Purpose                            |
+|--------|-------------------------------------|
+| **CSV Files** | Source of sales data         |
+| **SQL (MySQL/PostgreSQL)** | Structured querying for large datasets |
 
 ---
 
@@ -92,3 +121,16 @@ python analysis_script.py
 ---
 
 ## 📊 Future Improvements
+
+Add more KPIs (e.g., profit margin, average discount).
+
+Use Seaborn or Plotly for advanced visualizations.
+
+Create a Power BI or Tableau dashboard.
+
+Extend dataset and automate reporting.
+
+---
+
+
+
